@@ -192,6 +192,8 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Clases\clsAdministradorITM.cs" />
     <Compile Include="Clases\clsTorneo.cs" />
+    <Compile Include="Clases\TokenGenerator.cs" />
+    <Compile Include="Clases\TokenValidationHandler.cs" />
     <Compile Include="Controllers\AdministradorITMsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TorneosController.cs" />
