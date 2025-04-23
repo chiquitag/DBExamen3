@@ -191,6 +191,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Clases\clsAdministradorITM.cs" />
+    <Compile Include="Clases\clsLogin.cs" />
     <Compile Include="Clases\clsTorneo.cs" />
     <Compile Include="Clases\TokenGenerator.cs" />
     <Compile Include="Clases\TokenValidationHandler.cs" />
@@ -219,6 +220,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DBExamen.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Login.cs" />
+    <Compile Include="Models\LoginRespuesta.cs" />
     <Compile Include="Models\sysdiagram.cs">
       <DependentUpon>DBExamen.tt</DependentUpon>
     </Compile>
