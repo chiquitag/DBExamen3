@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBExamen3", "DBExamen3.csproj", "{975E1C99-069D-4FF4-8D73-3B480FC837BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBExamen3.ServiceDefaults", "DBExamen3.ServiceDefaults\DBExamen3.ServiceDefaults.csproj", "{DCBBF0B7-81BD-CB54-8D27-3F576299D180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clases", "Clases", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		clsAdministradorITM.cs = clsAdministradorITM.cs
+		clsTorneo.cs = clsTorneo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{975E1C99-069D-4FF4-8D73-3B480FC837BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975E1C99-069D-4FF4-8D73-3B480FC837BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975E1C99-069D-4FF4-8D73-3B480FC837BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975E1C99-069D-4FF4-8D73-3B480FC837BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBBF0B7-81BD-CB54-8D27-3F576299D180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBBF0B7-81BD-CB54-8D27-3F576299D180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBBF0B7-81BD-CB54-8D27-3F576299D180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBBF0B7-81BD-CB54-8D27-3F576299D180}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A6D6494-1DAB-47D4-AF0D-AFD92166CBB4}
+	EndGlobalSection
+EndGlobal
