@@ -1,4 +1,4 @@
-﻿using DBExamen3.Clases;
+using DBExamen3.Clases;
 using Newtonsoft.Json.Serialization;
 using Newtonsoft.Json;
 using System;
@@ -29,3 +29,4 @@ namespace DBExamen3
         }
     }
 }
+
