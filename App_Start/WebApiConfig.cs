@@ -1,4 +1,6 @@
 ﻿using DBExamen3.Clases;
+using Newtonsoft.Json.Serialization;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +22,10 @@ namespace DBExamen3
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            var json = config.Formatters.JsonFormatter;
+            json.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            json.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
         }
     }
 }
