@@ -11,7 +11,7 @@ using System.Web.Http;
 namespace DBExamen3.Controllers
 {
     [RoutePrefix("api/Torneos")]
-    //[Authorize]
+    [Authorize]
     public class TorneosController : ApiController
     {
         [HttpGet]
