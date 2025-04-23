@@ -7,7 +7,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Web;
 
-namespace Servicios_Jue.Clases
+namespace DBExamen3.Clases
 {
     public static class TokenGenerator
     {

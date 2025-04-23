@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Threading;
 using System.Web;
 
-namespace Servicios_Jue.Clases
+namespace DBExamen3.Clases
 {
     public class TokenValidationHandler : DelegatingHandler
     {
