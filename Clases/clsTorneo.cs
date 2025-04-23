@@ -137,7 +137,7 @@ namespace DBExamen3.Clases
             try
             {
                 //Antes de eliminar se debe verificar si el torneo existe
-                Torneo tor = ConsultarPorId(torneo.idTorneos.ToString());
+                Torneo tor = ConsultarPorId(idTorneos);
                 if (tor == null)
                 {
                     return "El torneo con el id ingresado no existe, por lo tanto no se puede eliminar";
